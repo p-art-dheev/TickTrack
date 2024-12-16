@@ -5,7 +5,6 @@ function App() {
   const [searchText, setSearchText] = useState('');
   const [filterStatus, setFilterStatus] = useState('all');
 
-  // Add Task
   const handleAddTask = (e) => {
     e.preventDefault();
 
@@ -24,10 +23,9 @@ function App() {
     };
 
     setTasks([...tasks, newTask]);
-    e.target.reset(); // Reset the form
+    e.target.reset();
   };
 
-  // Filter and Search
   const getFilteredTasks = () => {
     return tasks.filter((task) => {
       const matchesSearch = task.name.toLowerCase().includes(searchText.toLowerCase());
@@ -40,14 +38,12 @@ function App() {
     });
   };
 
-  // Toggle Complete
   const toggleComplete = (id) => {
     setTasks(tasks.map((task) =>
       task.id === id ? { ...task, completed: !task.completed } : task
     ));
   };
 
-  // Delete Task
   const deleteTask = (id) => {
     setTasks(tasks.filter((task) => task.id !== id));
   };
