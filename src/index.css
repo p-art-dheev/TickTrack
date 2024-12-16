@@ -1,13 +1,11 @@
 
-/* Optional: Style the heading */
 h1 {
-  font-family: 'Dancing Script', cursive; /* Optional: choose a cursive font for the heading */
-  font-size: 3rem; /* Adjust the font size to your liking */
-  margin: 0; /* Remove default margin around h1 */
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem; 
+  margin: 0; 
 }
 
 .head{
-  /* align-items: center; */
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -152,26 +150,30 @@ button:hover {
   font-size: 0.9em;
 }
 
-/* Priority Options Styling */
 .priority-options {
-  display: inline-flex;
-  gap: 45px; /* Spacing between each radio button group */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
 }
 
 .priority-options label {
-  display: inline-flex; /* Ensures the label and button are treated as one block */
-  align-items: baseline; /* Aligns the radio button and text vertically */
-  font-weight: normal;
+  display: flex;
+  align-items: center;
   cursor: pointer;
 }
 
 .priority-options input[type="radio"] {
-  margin-right: 10px; /* Adds spacing between the radio button and its label text */
+  margin-right: 8px;
 }
 
-form input[type="radio"]{
-  float: left; width: 20px; margin-right: 10px;
+
+form input[type="radio"] {
+  float: none;
+  width: auto;
+  margin-right: 8px;
 }
+
 
 .overdue {
   background-color: #ffdddd;
