@@ -24,15 +24,14 @@ Tick Track is a modern and efficient To-Do List app designed to help you manage 
 ## Screenshots
 
 ### Home Screen
-
-![HomeScreen](https://github.com/user-attachments/assets/7e134b93-b319-4594-a0f9-e83ee2eb6a58)
+![image](https://github.com/user-attachments/assets/467d5234-6c51-4a40-be8c-060bb18565a1)
 
 ### View Tasks
+![ViewTasks](https://github.com/user-attachments/assets/b21bc57c-2cc8-46b0-b7b5-7d3e7967967b)
 
-![ViewTasks](https://github.com/user-attachments/assets/a8d3ca59-ec26-45d2-82e3-87c57e2ebead)
 
 ### Filters Tasks
+![FilterTasks](https://github.com/user-attachments/assets/468230ae-36f4-4092-bcac-52b258b21916)
 
-![FilterTasks](https://github.com/user-attachments/assets/7f2f3a31-01db-452e-a934-22c6430c0f5e)
 
 Developed by Pardheev Vatturu as part of Intel IoT Web Developers Recruitment.
