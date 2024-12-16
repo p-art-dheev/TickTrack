@@ -155,7 +155,7 @@ button:hover {
 /* Priority Options Styling */
 .priority-options {
   display: inline-flex;
-  gap: 75px; /* Spacing between each radio button group */
+  gap: 45px; /* Spacing between each radio button group */
 }
 
 .priority-options label {
