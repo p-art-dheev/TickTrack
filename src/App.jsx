@@ -60,7 +60,7 @@ function App() {
             <img src="src\Tick Track_transparent-.png" alt="Logo" className="logo" height="100" />
           </div>
           <div>
-            <h1 className="header"><b></b></h1>
+            <h1 className="header"><b>Tick Track</b></h1>
           </div>
         </div>
         <h3>
