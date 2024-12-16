@@ -62,7 +62,7 @@ function App() {
       </header>
 
       <div className="container">
-        {/* Task Form */}
+        {}
         <form id="taskForm" onSubmit={handleAddTask}>
           <div className="form-group">
             <label htmlFor="taskName">Task Name</label>
@@ -97,7 +97,7 @@ function App() {
           <button type="submit">Add Task</button>
         </form>
 
-        {/* Search and Filter */}
+        {}
         <div className="filter-group">
           <input
             type="text"
@@ -117,7 +117,7 @@ function App() {
           </select>
         </div>
 
-        {/* Task List */}
+        {}
         <div className="task-list" id="taskList">
           {getFilteredTasks().map((task) => (
             <div key={task.id} className={`task ${task.priority}-priority ${task.completed ? 'completed' : ''}`}>
