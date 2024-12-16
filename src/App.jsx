@@ -57,8 +57,6 @@ function App() {
       <header>
         <div className="head">
           <div>
-          </div>
-          <div>
             <h1 className="header"><b>Tick Track</b></h1>
           </div>
         </div>
