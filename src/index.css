@@ -1,0 +1,194 @@
+
+/* Optional: Style the heading */
+h1 {
+  font-family: 'Dancing Script', cursive; /* Optional: choose a cursive font for the heading */
+  font-size: 3rem; /* Adjust the font size to your liking */
+  margin: 0; /* Remove default margin around h1 */
+}
+
+.head{
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+align-items: center;    
+
+}
+
+header{
+vertical-align:middle;
+align-items: end;}
+
+body, p, ul, li, input, textarea, select, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #1D976C;
+  background: linear-gradient(
+    to right,
+    #1D976C,#93F9B9
+  );
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form and Task List Container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ECE9E6;
+background: linear-gradient(
+  to right,
+  #ECE9E6,#FFFFFF
+);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #359b16;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b7203;
+}
+
+/* Filter Section */
+.filter-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-group input, .filter-group select {
+  width: 48%;
+}
+
+/* Task List */
+.task-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-details {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.task-priority {
+  font-weight: bold;
+}
+
+
+/* Priority Color Coding */
+.task.high-priority .task-priority {
+  color: red;
+  font-weight: bold;
+}
+
+.task.medium-priority .task-priority {
+  color: orange;
+  font-weight: bold;
+}
+
+.task.low-priority .task-priority {
+  color: green;
+  font-weight: bold;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+/* Priority Options Styling */
+.priority-options {
+  display: inline-flex;
+  gap: 75px; /* Spacing between each radio button group */
+}
+
+.priority-options label {
+  display: inline-flex; /* Ensures the label and button are treated as one block */
+  align-items: baseline; /* Aligns the radio button and text vertically */
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.priority-options input[type="radio"] {
+  margin-right: 10px; /* Adds spacing between the radio button and its label text */
+}
+
+form input[type="radio"]{
+  float: left; width: 20px; margin-right: 10px;
+}
+
+.overdue {
+  background-color: #ffdddd;
+  border-left: 5px solid red;
+}
+
+.urgent {
+  background-color: #fff3cd;
+  border-left: 5px solid orange;
+}
+
+.approaching-deadline {
+  background-color: #e6f3ff;
+  border-left: 5px solid blue;
+}
+
+.deadline-countdown {
+  font-weight: bold;
+  margin-left: 10px;
+}
