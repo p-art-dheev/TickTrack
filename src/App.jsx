@@ -57,7 +57,6 @@ function App() {
       <header>
         <div className="head">
           <div>
-            <img src="/public/images/Applogo.png" alt="Logo" className="logo" height="100" />
           </div>
           <div>
             <h1 className="header"><b>Tick Track</b></h1>
